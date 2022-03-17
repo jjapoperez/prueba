@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    vertical-align: middle;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+}
+
+.encabezado nav{
+    margin: 5px;
+}
+.encabezado nav a{
+    align-items: center;
+}
+.encabezado nav a img{
+    padding-left: 120px;
+}
+.encabezado nav ol{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    margin: 5px;
+}
+.encabezado nav ol ul{
+    padding-right: 20px;
+    font-size: 1.5rem;
+    color: black;
+}
+body{
+    display: grid;
+    grid-template-columns: 100vh;
+    grid-template-rows: 15% 10% 20% 5% 25% 15% 10%;
+    grid-template-areas: "navega" "titulod" "lineas" "interes" "news" "mapas" "piepag";
+}
+
+#navega{
+    grid-area: "navega";
+}
+#titulod{
+    grid-area: "titulod";
+}
+#lineas{
+    grid-area: "lineas";
+}
+#interes{
+    grid-area: "interes";
+}
+#news{
+    grid-area: "news";
+}
+#mapas{
+    grid-area: "mapas";
+}
+#piepag{
+    grid-area: "piepag";
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distrired Distribuciones Antioquia</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <!-- Inicia el nav--> 
+        <nav>
+            <!-- a href sirve para que cuando le den clic a la imagen vaya al link que ponemos -->
+            <a href="../index.html">
+                <img src="../img/distri.png" alt="Logo de Distrired">
+            </a>
+            <ol>
+                <ul><a href="../pages/nosotros.html">Nosotros</a></ul>
+                <ul><a href="../pages/catalogo.html">Catálogo</a></ul>
+                <ul><a href="../pages/noticias.html">Noticas</a></ul>
+                <ul><a href="../pages/contacto.html">Contacto</a></ul>
+            </ol>
+            
+        </nav>
+        
+    </header>
+    <div class="griid">
+        <div id="distri">
+        <h1  class="titulo">Distrired - Distribuidora área metropolitana de Antioquia</h1>
+        </div>
+            <div id="secciones">
+                <h4>Contacto</h4>
+                <form action="contacto.php" method="post">
+                    <fieldset class="form">
+                        <legend>Déjanos tu información</legend>
+                        <div>
+                            <label for="hoja-de-vida">Hoja de Vida</label>
+                            <input type="radio" value="velas" name="velas" id="velas">
+                            <label for="difusores">PQR</label>
+                            <input type="radio" value="difusores" name="difusores" id="difusores">
+                            <label for="difusores">Comprar</label>
+                            <input type="radio" value="Sales" name="Sales" id="Sales">
+                        </div>
+                        <div>
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input class="input45" type="text" placeholder="Nombre y apellido" name="nombre" id="nombre">
+                            <label for="email">Email</label>
+                            <input class="input45" type="email" placeholder="correo@ejemplo.com" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="mensaje">Deja tu mensaje</label>
+                            <textarea class="input45" name="comentario" id="comentario" cols="30" rows="10" placeholder="deja tu mensaje"></textarea>        
+                        </div>
+                        <div>
+                            <label for="adjunto">Adjunto</label>
+                            <textarea class="input45" name="adjunto" id="adjunto" cols="30" rows="10" placeholder="Deja tu archivo en esta sección"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="butt">
+                        <input class="butt" type="submit" value="Enviar" >
+                        <input class="butt" type="reset" value="Cancelar">
+                    </div>
+                </form>
+            </div>
+    </div>        
+        <footer id="piepag" class="footer">
+            <h2>Siguenos en nuestras redes</h2>
+            <a href="https://www.facebook.com/DistriRedComercio" target="_blank">
+                <img src="../img/facebook-logo-1.png" alt="Siguenos en Facebook" width="50" height="30">
+            </a>
+            <a href="https://instagram.com/distriredcomercio?utm_medium=copy_link" target="_blank">
+                <img src="../img/Instagram_icon.png.webp" alt="Siguenos en Instagram" width="27" height="27">
+            </a>
+        </footer>
+</body>
+</html>
